@@ -234,6 +234,8 @@ cols="50"
         )}
       </main>
 
+      
+
       {currentAccount && (<h1>Memos received</h1>)}
 
       {currentAccount && (memos.map((memo, idx) => {
